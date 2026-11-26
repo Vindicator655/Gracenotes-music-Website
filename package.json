@@ -1,0 +1,12 @@
+{
+  "name": "gracenotes-music-website",
+  "private": true,
+  "description": "Static marketing site for Gracenotes School of Music",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/styles.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
